@@ -1,0 +1,21 @@
+.uk-section-primary
+{
+    background-color: rgba(255, 255, 255, 0.747);
+}
+.uk-navbar-nav>li.uk-active>a
+{
+    color: #212121 !important; 
+    font-family: 'Outfit', sans-serif !important;
+}
+.uk-navbar-nav>li>a 
+{
+    color: #212121;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.uk-navbar-container
+{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}

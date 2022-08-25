@@ -1,0 +1,7 @@
+.custom-white-bg
+{
+    background-image: url('../../Assets/img/white-bg1.png');
+    background-position: cover !important;
+    background-repeat: no-repeat;
+    width: 100% !important;
+}

@@ -1,0 +1,23 @@
+.custom-sect-feature
+{
+    background-image:url('../../Assets/img/feature.png');
+    background-position: cover !important;
+    background-repeat: no-repeat;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+.uk-card-default
+{
+    border-radius: 25px;
+    background-color: #e0dcdc77;
+}
+.cust-feat-image
+{
+    width: 80%;
+    margin: 10%;
+    box-shadow: -20px 20px 0 #3f3c3acb;
+    border-radius: 15px;
+}  
+  
+  
+  

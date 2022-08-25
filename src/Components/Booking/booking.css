@@ -1,0 +1,72 @@
+.custom-sect-book
+{
+    background-image: url('../../Assets/img/filter.png');
+    background-size: cover;
+    min-height: 40vh;
+    background-position: top left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.uk-subnav-pill>.uk-active>a {
+    background: #ff5400;
+    border-radius: 5px;
+    color: #fff !important;
+}
+.uk-subnav-pill>*>:first-child {
+    padding: 5px 10px;
+    background: 0 0;
+    color: #2c2c2c;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.uk-subnav
+{
+    justify-content: center;
+}
+.tabs-content-image
+{
+    width: 80%;
+    margin: 10%;
+    box-shadow: -20px 20px 0 #3f3c3acb;
+    border-radius: 15px;
+}
+/* button */
+button 
+{
+    padding: 0.8em 1.8em;
+    border: 2px solid #ff5400cb;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #2c2c2c !important;
+    border-radius: 15px;
+}   
+button::before 
+{
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #ff5400;
+    color: #fff !important;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+} 
+button:hover::before 
+{
+    width: 105%;
+}  
+button:hover 
+{
+    color: #111;
+}

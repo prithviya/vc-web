@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import "uikit/dist/css/uikit.min.css";
+import "uikit/dist/js/uikit.min.js";
+import Banner from './Components/banner/banner';
+import Feature from './Components/Feature/feature';
+import Service from './Components/Services/service';
+import Test from './Components/Testimonial/test';
+import Gallery from './Components/Gallery/gallery';
+import Booking from './Components/Booking/booking';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Banner/>
+      <Feature/>
+      <Service/>
+      <Gallery/>
+      <Test/>
+      <Booking/>      
+    </>
   );
 }
 

@@ -1,0 +1,13 @@
+.custom-banner-title
+{
+    color: var(--white) !important;
+}
+.custom-banner-heading h1
+{
+    font-size: 5rem !important;
+    text-transform: capitalize;
+}
+.custom-banner-heading h2
+{
+    font-size: 3rem !important;
+}
