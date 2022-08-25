@@ -1,7 +1,5 @@
 import React from 'react';
 import Navbar from '../Navbar/navbar';
-import About from '../About/about';
-import Scroll from '../Scroll/scroll';
 import './banner.css';
 
 
@@ -9,7 +7,7 @@ function banner() {
   return (
     <div>
         <Navbar/>
-        <div data-uk-slideshow="ratio: 6:3; autoplay: true; autoplay-interval: 2500; finite: true; min-height: 350; max-height: 600; animation: slide; pause-on-hover: true;">
+        <div id='home-page' data-uk-slideshow="ratio: 6:3; autoplay: true; autoplay-interval: 2500; finite: true; min-height: 350; max-height: 600; animation: slide; pause-on-hover: true;">
             <div className="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" >
                 <ul className="uk-slideshow-items">
                     <li>
@@ -54,8 +52,6 @@ function banner() {
                 </ul>
             </div>            
         </div>
-        <Scroll/>
-        <About/>
     </div>
   )
 }

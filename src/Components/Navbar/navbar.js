@@ -1,49 +1,38 @@
 import React from 'react';
-import './navbar.css'
+import './navbar.css';
+import { Link } from "react-scroll";
 
 function navbar() {
   return (
     <div>
-        <div className='uk-section-primary uk-preserve-color'>
-            <div data-uk-sticky='start: 200; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent'>
-                <nav class="uk-navbar-container uk-container" data-uk-navbar>
-                    <div class="uk-navbar-left">
-                        <ul class="uk-navbar-nav">
-                            <li class="uk-active">
-                                <a href="#">
-                                    Company Name
-                                </a>
-                            </li>                            
-                        </ul>
-                    </div>
-                    <div class="uk-navbar-right">
-                        <ul class="uk-navbar-nav">
-                            <li class="">
-                                <a href="#">
-                                    Home
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="#">
-                                    About
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="#">
-                                    Services
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="#">
-                                    Contact
-                                </a>
-                            </li>
-                        </ul>
-
-                    </div>
-                </nav>
+       <nav class="uk-navbar-container uk-container" data-uk-navbar>
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active">
+                        <a href="#">
+                            Company Name
+                        </a>
+                    </li>                            
+                </ul>
             </div>
-        </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li class="">
+                        <Link to="home" spy={true} smooth={true}>Home</Link>
+                    </li>
+                    <li class="">
+                        <Link to="about" spy={true} smooth={true}>About</Link>
+                    </li>
+                    <li class="">
+                        <Link to="services" spy={true} smooth={true}>Services</Link>
+                    </li>
+                    <li class="">
+                        <Link to="contact" spy={true} smooth={true}>Contact</Link>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
     </div>
   )
 }

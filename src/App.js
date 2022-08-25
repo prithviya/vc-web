@@ -7,16 +7,29 @@ import Service from './Components/Services/service';
 import Test from './Components/Testimonial/test';
 import Gallery from './Components/Gallery/gallery';
 import Booking from './Components/Booking/booking';
+import About from './Components/About/about';
 
 function App() {
   return (
     <>
-      <Banner/>
-      <Feature/>
-      <Service/>
-      <Gallery/>
-      <Test/>
-      <Booking/>      
+     <div id="home">
+        <Banner />
+      </div>
+      <div id="about">
+        <About/>
+      </div>
+      <div id="services">
+        <Service />
+      </div>
+      <div>
+        <Gallery />
+      </div>
+      <div>
+        <Test />
+      </div>
+      <div id="contact">
+        <Booking />
+      </div>    
     </>
   );
 }
