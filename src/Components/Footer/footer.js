@@ -1,68 +1,97 @@
 import React from 'react';
-import './footer.css'
+import './footer.css';
+import Images from '../../Constant/assets';
 
 function footer() {
   return (
     <div className='custom-sect-footer'>
-        <div class="uk-section">
-            <div class="uk-container">
-                
-                <div class="uk-grid-match uk-child-width-1-4@m" data-uk-grid>
+        <div className="uk-section">
+            <div className="uk-container">                
+                <div className="uk-grid-match uk-child-width-1-4@m" data-uk-grid>
                     <div>
-                        
+                        <div className='uk-card-body'>
+                            <img src={Images.LOGO_1} alt='logo' />
+                        </div>
                     </div>
-                    <div>
-                    <h2>Company Logo</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                    </div>
-                    <div class="widget footer_useful_links">
-						<h2 class="footer_widget_title">Quick Links</h2>
+                    <div className="widget footer_useful_links">
+						<h2 className="footer_widget_title">Quick Links</h2>
                         <ul className='ul_li_block clearfix'>
                             <li>
-                                <a href="#">
-                                    <i class="uil uil-arrow-circle-right"></i> Home
+                                <a href="/">
+                                    <i className="uil uil-arrow-circle-right"></i> Home
                                 </a>
                             </li>
                             <li>
-                                <a href="#about">
-                                    <i class="uil uil-arrow-circle-right"></i> About Us 
+                                <a href="/#about">
+                                    <i className="uil uil-arrow-circle-right"></i> About Us 
                                 </a>
                             </li>
                             <li>
-                                <a href="#about">
-                                    <i class="uil uil-arrow-circle-right"></i> Our Service 
+                                <a href="/#services">
+                                    <i className="uil uil-arrow-circle-right"></i> Our Service 
                                 </a>
                             </li>
                             <li>
-                                <a href="#contact">
-                                    <i class="uil uil-arrow-circle-right"></i> Contact Us
+                                <a href="/#contact">
+                                    <i className="uil uil-arrow-circle-right"></i> Contact Us
                                 </a>
                             </li>
                         </ul>
 					</div>
-                    <div class="widget footer_useful_links">
-                        <h2 class="footer_widget_title">Contact Us</h2>
+                    <div className="widget footer_useful_links">
+                        <h2 className="footer_widget_title">Contact Us</h2>
                         <ul className='ul_li_block clearfix'>
                             <li>
-                                <a>
+                                <a href='tel:+9952402650'>
                                     <span>
-                                        <i class="uil uil-phone"></i>  9952402650
+                                        <i className="uil uil-phone"></i>  99524 02650 /  99524 02653
                                     </span> 
                                 </a>
                             </li>
                             <li>
-                                <a>
-                                    <span><i class="uil uil-at"></i> vinayaka.caterers@gmail.com</span> 
+                                <a href='tel:+9600033550'>
+                                    <span>
+                                        <i className="uil uil-phone"></i>  96000 33550
+                                    </span> 
                                 </a>
                             </li>
                             <li>
-                                <a>
-                                    <span><i class="uil uil-user-location"></i> Location</span> 
+                                <a href='mailto:vinayaka.caterers@gmail.com'>
+                                    <span><i className="uil uil-at"></i> vinayaka.caterers@gmail.com</span> 
+                                </a>
+                            </li>
+                            <li>
+                                <a href='/#'>
+                                    <span><i className="uil uil-user-location"></i> Location</span> 
                                 </a>
                             </li>
                         </ul>
-                    </div>
-                   
+                    </div> 
+                    <div className='widget footer_useful_links'>
+                        <h2 className="footer_widget_title">Media Links</h2>
+                        <ul className='ul_li_block clearfix'>
+                            <li>
+                                <a href="/#">
+                                <i className="uil uil-instagram"></i> Instagram
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/#">
+                                    <i className="uil uil-facebook-messenger-alt"></i> Facebook 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/#">
+                                <i className="uil uil-linkedin-alt"></i> linkedIn 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/#">
+                                <i className="uil uil-whatsapp"></i> Whatsapp
+                                </a>
+                            </li>
+                        </ul>
+                    </div>                  
                 </div>
             </div>
         </div>

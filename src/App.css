@@ -2,21 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 *
 {
-    color: #212121 !important; 
+    /* color: #212121 !important;  */
     font-family: 'Outfit', sans-serif !important;
-    font-size: 1.7rem;
+    scroll-behavior: smooth;
 }
 :root
 {
     --white: #fff;
-    --black: #222;
+    --black: #333;
     --grey: #c1c1c1;
     --orange: #ff5400;
+}
+.text-black
+{
+    color: rgba(51, 51, 51, 0.884);
 }
 .uk-section
 {
     padding-top: 40px !important;
     padding-bottom: 40px !important;
+}
+.uk-container
+{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 }
 .title
 {
@@ -37,3 +46,92 @@
     background-color: var(--orange) !important;
     border-color: transparent;
 }
+.custom-card-white
+{
+    background-color: #fff !important;
+}
+.uk-card-default
+{
+    border-radius: 15px;
+    background-color: #696969 !important;
+}
+.text-white
+{
+    color: #fff;
+}
+button {
+    padding: 0.8em 1.8em;
+    border: 2px solid #ff5400;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #ff5400;
+    border-radius: 15px;
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #ff5400;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 105%;
+   }
+   
+   button:hover {
+    color: #fff;
+   }
+   
+   .button1 {
+    padding: 0.8em 1.8em;
+    border: 2px solid #ff5400;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #fff;
+    background-color: #ff5400;
+    border-radius: 15px;
+   }
+   
+   .button1::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #fff;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .button1:hover::before {
+    width: 105%;
+   }
+   
+   .button1:hover {
+    color: #ff5400;
+   }
+   

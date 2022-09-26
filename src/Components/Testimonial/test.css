@@ -1,6 +1,6 @@
 .custom-test-section
 {
-    background-image: url('../../Assets/img/testimonial.jpeg');
+    background-image: url('../../Assets/img/testimonial.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,7 +30,7 @@
 
 .text p {
   height: 100%;
-  font-size: 21px;
+  font-size: 20px;
   line-height: 1.25;
   padding: 0;
   text-align: center;
@@ -83,6 +83,7 @@
   width: 100%;
   position: absolute;
   bottom: 30px;
+  color: #000;
   font-size: 17px;
   text-align: center;
   text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);

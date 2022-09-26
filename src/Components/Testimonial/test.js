@@ -12,14 +12,26 @@ function test() {
                     <div class="uk-card"></div>
                 </div>
                 <div class="uk-width-1-2@m">
-                    <div data-uk-slideshow="animation: fade; autoplay-interval: 2500; autoplay: true; finite: true; min-height: 450; max-height: 550">
+                    <div data-uk-slideshow="animation: fade; autoplay: true; autoplay-interval: 2300; finite: false; min-height: 450; max-height: 550">
                         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
                             <ul class="uk-slideshow-items">
                                 <li>
                                     <div class="quote-wrapper">
                                         <blockquote class="text">                            
-                                            <p>
-                                                sit amet lorem ipsum dolorconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam ut.
+                                            <p className='text-black'>
+                                            One of the finest caterers in the city! You don't wanna miss this place! I tried both brunch and dinner, and they were excellent.
+                                            </p>
+                                            <footer>
+                                                – Pranav
+                                            </footer>                            
+                                        </blockquote>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="quote-wrapper">
+                                        <blockquote class="text">                            
+                                            <p className='text-black'>
+                                            The food was absolutely delicious. Thanks to the young owner and her hospitality. She does the best to serve us delicious food. 
                                             </p>
                                             <footer>
                                                 – Jesse James Garrett
@@ -30,23 +42,11 @@ function test() {
                                 <li>
                                     <div class="quote-wrapper">
                                         <blockquote class="text">                            
-                                            <p>
-                                                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet dolore magna aliqua enim ad minim veniam ut.
+                                            <p className='text-black'>
+                                            The food was amazing. The presentation was perfect and quality of the food was just as good. The customer service is appreciable Overall, excellent service.  
                                             </p>
                                             <footer>
-                                                – Jesse James Garrett
-                                            </footer>                            
-                                        </blockquote>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="quote-wrapper">
-                                        <blockquote class="text">                            
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam ut.
-                                            </p>
-                                            <footer>
-                                                – Jesse James Garrett
+                                                – Jenifer
                                             </footer>                            
                                         </blockquote>
                                     </div>

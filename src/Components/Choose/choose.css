@@ -1,0 +1,112 @@
+/*why choose us*/
+.bg-lighter {
+    background-color: #f7f7f7;
+}
+section > .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section-title {
+    margin-bottom: 30px;
+}
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+.p-30 {
+    padding: 30px !important;
+}
+.icon-box {
+    margin-bottom: 30px;
+}
+.service-box {
+    position: relative;
+    border-bottom: 3px  solid transparent;
+    border-top: 0;
+    /* height: 21em; */
+}
+.border-1px {
+    border: 1px solid #eeeeee !important;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+.text-orange
+{
+    color: #ff5400;
+}
+.icon-box.iconbox-theme-colored .icon.icon-dark {
+    background-color: #ff5400;
+    border-radius: 15px;
+    color: #fff;
+}
+.icon-box.iconbox-theme-colored .icon {
+    color: #002E5B;
+}
+.icon-box .icon.icon-dark {
+    background-color: #111111;
+    color: #fff;
+}
+.icon-box.iconbox-theme-colored .icon.icon-dark:hover {
+    color: #fff;
+}
+.icon-box .icon {
+    display: inline-block;
+    height: 60px;
+    margin-bottom: 0;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 60px;
+    text-align: center;
+}
+.mb-0 {
+    margin-bottom: 0!important;
+}
+.mr-0 {
+    margin-right: 0!important;
+}
+.mt-5 {
+    margin-top: 5px !important;
+}
+.mb-5 {
+    margin-bottom: 5px !important;
+}
+.pull-left {
+    float: left!important;
+}
+.icon-box .icon i {
+    line-height: 70px;
+}
+.icon-box i {
+    display: inline-block;
+    font-size: 40px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.icon-box .icon-box-details {
+    margin-left: 60px;
+}
+.text-gray {
+    color: #808080 !important;
+}
+.service-box:hover:after {
+    width: 100%;
+}
+.service-box:after {
+    background: #ff5400;
+}
+.service-box:after {
+    content: "";
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}

@@ -1,5 +1,5 @@
 :root {
-    --color-brand-primary: #9d3f3f;
+    --color-brand-primary: #212121;
     --color-brand-primary-h: 251;
     --color-brand-primary-s: 43%;
     --color-brand-primary-l: 43%;
@@ -90,10 +90,10 @@ ul li:before {
 .c-services__item p {
     margin-top: var(--s-1);
     font-weight: 400;
-    color: #706d7e;
+    color: #212121;
 }
 .c-services__item:hover {
-    background-color: var(--color-brand-accent);
+    background-color: #696969;
 }
 @media (min-width: 40.625em) {
     .c-services__item:hover {
@@ -106,10 +106,10 @@ ul li:before {
    }
 }
 .c-services__item:hover h3 {
-    color: #fff;
+    color: #ff4500;
 }
 .c-services__item:hover p {
-    color: rgba(255, 255, 255, .8);
+    color: whitesmoke;
 }
 .c-services__item:hover:after {
     background-color: #fff;

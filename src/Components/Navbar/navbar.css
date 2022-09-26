@@ -1,12 +1,32 @@
+.custom-nav-height
+{
+    height: 30px;
+}
 .uk-navbar-nav>li.uk-active>a
 {
     color: #212121 !important; 
     font-family: 'Outfit', sans-serif !important;
+    font-size: 17px !important;
+}
+.uk-navbar-nav>li.uk-active>a:hover, .uk-navbar-nav>li>a:hover, .uk-text-warning 
+{
+    color: #ff5400 !important;
 }
 .uk-navbar-nav>li>a 
 {
     color: #212121;
-    font-size: 1.3rem;
+    font-size: 17px !important;
     text-transform: capitalize;
     font-weight: 600;
+}
+.uk-navbar-nav>li>a>.uil
+{
+    color: #212121;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.uk-navbar-container:not(.uk-navbar-transparent) 
+{
+    background: transparent;
 }
