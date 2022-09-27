@@ -1,8 +1,8 @@
 export default
 {
    // brand
-   LOGO: require("../Assets/img/logo 01.webp"),
-   LOGO_1: require("../Assets/img/logo 02.webp"),
+   LOGO: require("../Assets/img/logo-final_01.png"),
+   LOGO_1: require("../Assets/img/logo 02.png"),
    CIRCLE : require("../Assets/img/circle-white.png"),
    CORPORATE : require("../Assets/img/tab/corporate.png"),
    MENU: require("../Assets/img/menu.png"),

@@ -8,7 +8,7 @@ function banner() {
   return (
     <div>
         <Navbar/>
-        <div>
+        <div className='uk-visible@m'>
             <div className="uk-position-relative uk-visible-toggle" tabindex="-1" data-uk-slideshow="animation: scale; autoplay: true; finite: false; min-height: 360; max-height: 620">
                 <ul className="uk-slideshow-items">
                     <li>
@@ -74,7 +74,43 @@ function banner() {
                 </ul>
             </div>
         </div>
-       
+        <div className='uk-hidden@m'>
+            <div className="uk-position-relative uk-visible-toggle" tabindex="-1" data-uk-slideshow="animation: slide; autoplay: true; finite: false; min-height: 300; max-height: 600;">
+                <ul className="uk-slideshow-items">
+                    <li>
+                        <div className="uk-position-cover">
+                            <img className='custom_sect_banner' src={Images.SLIDER} alt="banner_image" data-uk-cover />
+                        </div>
+                        <div className="uk-position-large uk-position-center-left">
+                            <h2 className="" style={{fontSize:'2.5rem'}}>
+                                Icon of <br/>Tanjore Cuisine
+                            </h2>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="uk-position-cover">
+                            <img className='custom_sect_banner' src={Images.SLIDER_1}  alt="banner_image" data-uk-cover />
+                        </div>
+                        <div className="uk-position-large uk-position-center-left">
+                            <h2 className="" style={{fontSize:'2.5rem'}}>
+                                Customized Menu <br/>with Best Services
+                            </h2>                            
+                        </div>
+                    </li>
+                    <li>
+                        <div className="uk-position-cover">
+                            <img className='custom_sect_banner' src={Images.SLIDER_2} alt="banner_image" data-uk-cover />
+                        </div>
+                        <div className="uk-position-large uk-position-center-left">
+                            <h2 className="" style={{fontSize:'2.5rem'}}>
+                                Market Lead in<br/> Catering <br/>Services
+                            </h2>
+                            
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <nav className="social"> 
             <ul>
                 <li>

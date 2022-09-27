@@ -23,12 +23,12 @@ function navbar() {
                 <ul className="uk-navbar-nav">
                     <li className="uk-active">
                         <a href="/#">
-                            <img src={Images.LOGO} height='80px'/>
+                            <img src={Images.LOGO} alt='image' style={{maxHeight:'80px'}}/>
                         </a>
                     </li>                            
                 </ul>
             </div>
-            <div className="uk-navbar-right uk-margin-medium-right">
+            <div className="uk-navbar-right uk-margin-small-right">
                 <ul className="uk-navbar-nav">
                     <li className="uk-visible@m">
                         <Link to="home" spy={true} smooth={true}>Home</Link>
@@ -43,8 +43,8 @@ function navbar() {
                         <Link to="contact" spy={true} smooth={true}>Contact</Link>
                     </li>
                     <li className='uk-hidden@m'>
-                        <a className="uk-margin-small-right" uk-toggle="target: #offcanvas-nav-primary">
-                            <img src={ Images.MENU } width={'50px'} height={'50px'}/>
+                        <a href='/#' className="uk-margin-small-right" uk-toggle="target: #offcanvas-nav-primary">
+                            <img src={ Images.MENU } width={'50px'} alt='image' height={'50px'}/>
                         </a>
                         <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
                             <div className="uk-offcanvas-bar uk-flex uk-flex-column">
