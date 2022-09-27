@@ -5,7 +5,7 @@ function gallery() {
   return (
     <div className='uk-section'>
         <div className='uk-container'>
-            <h1 className='title'>View<span> Our Galleria</span></h1>
+            <h1 className='title'data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500">View<span> Our Galleria</span></h1>
             <div className="uk-position-relative" data-uk-slideshow="ratio: 5:5; autoplay: true; autoplay-interval: 2500; finite: false;  min-height: 350; max-height: 600; animation: fade; pause-on-hover: true;">
                 <ul className="uk-slideshow-items custom-slideshow-items">
                     <li>

@@ -6,8 +6,8 @@ function booking() {
     <div className='custom-sect-book'>
       <div className='uk-section'>
         <div className='uk-container'>
-          <h1 className='title'><span>Our Catering </span>Services</h1>
-          <h3 className='uk-text-capitalize uk-text-center uk-margin'>A SOUP-TO-NUTS FOR ALL YOUR CATERING NEEDS</h3>
+          <h1 className='title'data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500"><span>Our Catering </span>Services</h1>
+          <h3 className='uk-text-capitalize uk-text-center uk-margin'data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500">A SOUP-TO-NUTS FOR ALL YOUR CATERING NEEDS</h3>
           <div className='uk-container uk-card'>
             <ul className="uk-subnav uk-subnav-pill" uk-switcher="animation: uk-animation-fade">
                 <li><a href="/#">Industrial Catering</a></li>

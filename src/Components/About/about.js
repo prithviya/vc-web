@@ -6,7 +6,7 @@ function about() {
   return (
     <div className='uk-section'>   
         <div className='uk-container'>
-            <h1 className='title'><span>Who We</span> are ?</h1>
+            <h1 className='title'data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500"><span>Who We</span> are ?</h1>
             <div className="uk-flex-middle uk-grid-match" data-uk-grid>
                 <div className="uk-width-1-2@m" data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">
                     <div className="uk-card uk-card-body">
@@ -19,7 +19,7 @@ function about() {
                         </p>   
                     </div>
                 </div>
-                <div className="uk-width-1-2@m" data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">
+                <div className="uk-width-1-2@m">
                     <div className="uk-card uk-card-body">
                         <video src={About} width='100%' loop muted playsinline uk-video="autoplay: inview"></video>
                     </div>

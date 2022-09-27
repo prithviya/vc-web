@@ -7,7 +7,7 @@ function service() {
   return (
     <div className='uk-section uk-section-muted'>
         <div class="uk-container">
-            <h1 className='title' data-uk-scrollspy="cls: uk-animation-slide-right; repeat: false">What <span>We do ?</span></h1>
+            <h1 className='title' data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500">What <span>We do ?</span></h1>
             <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" data-uk-grid>
                 <div data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500">
                     <div class="uk-card">

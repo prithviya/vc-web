@@ -6,7 +6,7 @@ function test() {
   return (
     <div className='uk-section custom-test-section uk-padding-remove-bottom'>
         <div className='uk-container'>
-            <h1 className='title'><span>your opinion</span> matters </h1>
+            <h1 className='title'data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500"><span>your opinion</span> matters </h1>
             <div class="uk-text-center" data-uk-grid>
                 <div class="uk-width-1-4@m">
                     <div class="uk-card"></div>
