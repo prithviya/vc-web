@@ -5,11 +5,11 @@ function branch() {
     <div className='uk-section'>
         <div className='uk-container'>
             <h1 className='title'data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500"><span>Where's location </span>Services</h1>
-            <h2 className='uk-text-center'data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500">Find our services at various locations in Tamilnadu</h2>
+            <h2 className='uk-text-center'data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500">Find our services at various locations in <span className='text-orange'>TamilNadu</span></h2>
             <div className="uk-child-width-1-4@m uk-margin-top uk-grid-small uk-grid-match" data-uk-grid>
                 <div data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">
                     <div className="uk-card uk-card-default uk-card-body">
-                        <h2 className='text-white'>Thanjavur</h2>
+                        <h2 className='text-orange'>Thanjavur</h2>
                         <p className='text-white'>
                             No.21, Mannar Sarfoji Nagar, Opposite New Bus Stand, Thanjavur
                         </p>
@@ -17,7 +17,7 @@ function branch() {
                 </div>
                 <div data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">
                 <div className="uk-card uk-card-default uk-card-body">
-                        <h2 className='text-white'>Puducherry</h2>
+                        <h2 className='text-orange'>Puducherry</h2>
                         <p className='text-white'>
                             No.16, P.K.Salai, <br/>Karaikkal
                         </p>
@@ -25,7 +25,7 @@ function branch() {
                 </div>
                 <div data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">
                     <div className="uk-card uk-card-default uk-card-body">
-                        <h2 className='text-white'>Coimbatore</h2>
+                        <h2 className='text-orange'>Coimbatore</h2>
                         <p className='text-white'>
                             No.17/1, Raj Bhavan, Othakkalmandapam.
                         </p>
@@ -33,7 +33,7 @@ function branch() {
                 </div>
                 <div data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">
                     <div className="uk-card uk-card-default uk-card-body">
-                        <h2 className='text-white'>Chennai</h2>
+                        <h2 className='text-orange'>Chennai</h2>
                         <p className='text-white'>
                             Old No.121, New No.93, Tharhanur Vadakal Village, Sriperumbathur
                         </p>

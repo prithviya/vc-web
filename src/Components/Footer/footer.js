@@ -71,22 +71,17 @@ function footer() {
                         <h2 className="footer_widget_title">Media Links</h2>
                         <ul className='ul_li_block clearfix'>
                             <li>
-                                <a href="/#">
+                                <a href="https://www.instagram.com/vinayakacaterers.in/" target={'_blank'}>
                                 <i className="uil uil-instagram"></i> Instagram
                                 </a>
                             </li>
                             <li>
-                                <a href="/#">
+                                <a href="https://www.facebook.com/vinayakacaterers.in" target={'_blank'}>
                                     <i className="uil uil-facebook-messenger-alt"></i> Facebook 
                                 </a>
                             </li>
                             <li>
-                                <a href="/#">
-                                <i className="uil uil-linkedin-alt"></i> linkedIn 
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/#">
+                                <a href="https://api.whatsapp.com/send/?phone=919952402650&amp;text=Hi, I am looking for Catering Services &amp;app_absent=0" target={'_blank'}>
                                 <i className="uil uil-whatsapp"></i> Whatsapp
                                 </a>
                             </li>

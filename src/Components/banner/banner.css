@@ -11,8 +11,9 @@
 {
     position: fixed;
     float: right;
-    top: 32%;
+    top: 40%;
     right: -540px;
+    z-index: 999;
 }
 .social ul 
 {

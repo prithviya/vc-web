@@ -114,7 +114,7 @@ function booking() {
                       Event Catering
                     </h2>
                     <p className='uk-margin text-black uk-text-justify'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Feast is the most awaited phase of any event, from birthday parties, and family functions, to wedding buffets. It is not just serving food to relatives or friends but also a way of exhibiting respect and affection. Food plays a vital role not just in terms of spending but also in satisfying the guests. It can ruin the very happiness of a wedding or any function for that matter. At the same time, lip-smacking food works wonders and it remains in the memory of the guests for a long time. Our list of carefully prepared dishes leaves the guests spellbound and has an everlasting effect that adds immense joy to the occasion.
                     </p>
                     <a className="btn" href="/#" data-uk-toggle="target: #modal-example">
                     Enquire

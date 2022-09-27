@@ -114,27 +114,17 @@ function banner() {
         <nav className="social"> 
             <ul>
                 <li>
-                    <a href="https://twitter.com/highflyer910">
-                        <img src="https://img.icons8.com/color/30/000000/twitter--v2.png" alt='img'/>
+                    <a href="https://api.whatsapp.com/send/?phone=919600033550&amp;text=Hi, I am looking for Catering Services &amp;app_absent=0" target={'_blank'}>
+                        <img src="https://img.icons8.com/color/30/000000/whatsapp.png" alt='img'/>
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/highflyer910">
+                    <a href="https://www.instagram.com/vinayakacaterers.in/" target={'_blank'}>
                         <img src="https://img.icons8.com/3d-fluency/30/000000/instagram-new.png" alt='img'/>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/teonamushambadze"> 
-                        <img src="https://img.icons8.com/color/30/000000/linkedin-circled--v1.png" alt='img'/>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/teonamushambadze">
-                        <img src="https://img.icons8.com/color/30/000000/youtube-music.png" alt='img'/>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/teonamushambadze">
+                    <a href="https://www.facebook.com/vinayakacaterers.in" target={'_blank'}>
                         <img src="https://img.icons8.com/fluency/30/000000/facebook-circled.png" alt='img'/>
                     </a>
                 </li>
