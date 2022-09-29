@@ -57,7 +57,7 @@ function banner() {
                         </div>
                         <div className="uk-position-large uk-position-center-left">
                             <h1 className="home-title">
-                                Market Lead in <br/> Catering Services
+                                A Brand in <br/> Catering Services
                             </h1>
                             <a href="tel:+918448448909" className='uk-visible@m' rel="noopener noreferrer">
                                 <button> 
@@ -103,7 +103,7 @@ function banner() {
                         </div>
                         <div className="uk-position-large uk-position-center-left">
                             <h2 className="" style={{fontSize:'2.5rem'}}>
-                                Market Lead in<br/> Catering <br/>Services
+                                A Brand in<br/> Catering <br/>Services
                             </h2>
                             
                         </div>
@@ -114,17 +114,17 @@ function banner() {
         <nav className="social"> 
             <ul>
                 <li>
-                    <a href="https://api.whatsapp.com/send/?phone=919600033550&amp;text=Hi, I am looking for Catering Services &amp;app_absent=0" target={'_blank'}>
+                    <a href="https://api.whatsapp.com/send/?phone=919600033550&amp;text=Hi, I am looking for Catering Services &amp;app_absent=0" target={'_blank'} rel="noreferrer">
                         <img src="https://img.icons8.com/color/30/000000/whatsapp.png" alt='img'/>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/vinayakacaterers.in/" target={'_blank'}>
+                    <a href="https://www.instagram.com/vinayakacaterers.in/" target={'_blank'} rel="noreferrer">
                         <img src="https://img.icons8.com/3d-fluency/30/000000/instagram-new.png" alt='img'/>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/vinayakacaterers.in" target={'_blank'}>
+                    <a href="https://www.facebook.com/vinayakacaterers.in" target={'_blank'} rel="noreferrer">
                         <img src="https://img.icons8.com/fluency/30/000000/facebook-circled.png" alt='img'/>
                     </a>
                 </li>

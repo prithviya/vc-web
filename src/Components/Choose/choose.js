@@ -37,7 +37,7 @@ function choose() {
                     <a className='icon icon-dark' href='/#'>
                     <img src="https://img.icons8.com/glyph-neue/50/FFFFFF/deliver-food.png" alt='img'/>
                     </a>
-                    <h2 className="uk-margin-top">Professional <br/><span className='text-orange'>Doorstep</span><br/> Services</h2>
+                    <h2 className="uk-margin-top">Professional <br/><span className='text-orange'>Catering</span><br/> Services</h2>
                     </div>
                 </div>
             </div>

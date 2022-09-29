@@ -14,7 +14,7 @@ function service() {
                         <ul class="c-services">
                             <li class="c-services__item">
                                 <img src= { Images.SER_IMG_1 } alt='Snacky Snacks'/>
-                                <h3 className='uk-margin-top'>Snacky Snacks</h3>
+                                <h3 className='uk-margin-top'>Snack Treat</h3>
                                 <p className='uk-text-justify'>
                                 We prepare scrumptious snacks for you to chomp on. Quick snacks are great to chase away sleepiness and make you lively. Seize these yummy titbits to abandon laziness.
                                 </p>

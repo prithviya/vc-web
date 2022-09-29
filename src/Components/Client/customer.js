@@ -11,7 +11,7 @@ function customer() {
                     <div className="uk-card  uk-card-body" data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">
                         <img src="https://img.icons8.com/ios-filled/100/FD7E14/successful-delivery.png" alt='icon'/>
                         <h1>
-                            Our Happy Clients
+                            Our Food Lovers
                         </h1>
                         <p className='text-black uk-text-justify'>
                         Vinayaka Caterers has a legacy of catering delicious food to several Colleges, Universities, Hospitals and Industries. We ensure that our customers are served best in terms of quality, which is what has made them enjoy an unforgettable food experience. Customers have been served amazing food and their positive feedback has motivated us to continue doing our best.
