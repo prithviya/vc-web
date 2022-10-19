@@ -22,7 +22,7 @@ function test() {
                                             One of the finest caterers in the city! You don't wanna miss this place! I tried both brunch and dinner, and they were excellent.
                                             </p>
                                             <footer>
-                                                – Pranav
+                                                – Rajesh Kumar
                                             </footer>                            
                                         </blockquote>
                                     </div>
@@ -34,7 +34,7 @@ function test() {
                                             The food was absolutely delicious. Thanks to the young owner and her hospitality. She does the best to serve us delicious food. 
                                             </p>
                                             <footer>
-                                                – Jesse James Garrett
+                                                – Santhosh 
                                             </footer>                            
                                         </blockquote>
                                     </div>
@@ -46,7 +46,7 @@ function test() {
                                             The food was amazing. The presentation was perfect and quality of the food was just as good. The customer service is appreciable Overall, excellent service.  
                                             </p>
                                             <footer>
-                                                – Jenifer
+                                                – Gowtham Sivaraj
                                             </footer>                            
                                         </blockquote>
                                     </div>
