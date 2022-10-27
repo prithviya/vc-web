@@ -13,7 +13,7 @@ function booking() {
                 <li><a href="/#">Industrial Catering</a></li>
                 <li><a href="/#">Corporate Catering</a></li>
                 <li><a href="/#">College Catering</a></li>
-                <li><a href="/#">Hospital Catering</a></li>
+                {/* <li><a href="/#">Hospital Catering</a></li> */}
                 <li><a href="/#">Event Catering</a></li>
             </ul>
             <ul className="uk-switcher uk-margin uk-padding-small">
@@ -84,7 +84,7 @@ function booking() {
                   </div>
                 </div>                             
               </li>
-              <li>
+              {/* <li>
               <div className="uk-child-width-1-2@m uk-grid-small uk-grid-match" data-uk-grid>
                   <div data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">
                   <div className="uk-card uk-card-body">
@@ -105,7 +105,7 @@ function booking() {
                     </div>
                   </div>
                 </div>                             
-              </li>
+              </li> */}
               <li>
               <div className="uk-child-width-1-2@m uk-grid-small uk-grid-match" data-uk-grid>
                   <div data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">
