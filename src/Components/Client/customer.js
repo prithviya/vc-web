@@ -81,6 +81,16 @@ function customer() {
                             <img src={Images.CLIENT_14} alt=""/>
                         </div>
                     </li>
+                    <li>
+                        <div class="uk-panel">
+                            <img src={Images.CLIENT_15} alt=""/>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-panel">
+                            <img src={Images.CLIENT_16} alt=""/>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
