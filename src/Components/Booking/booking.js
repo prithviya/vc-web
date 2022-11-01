@@ -11,10 +11,10 @@ function booking() {
           <div className='uk-container uk-card'>
             <ul className="uk-subnav uk-subnav-pill" uk-switcher="animation: uk-animation-fade">
                 <li><a href="/#">Industrial Catering</a></li>
-                <li><a href="/#">Corporate Catering</a></li>
-                <li><a href="/#">College Catering</a></li>
-                {/* <li><a href="/#">Hospital Catering</a></li> */}
-                <li><a href="/#">Event Catering</a></li>
+                {/* <li><a href="/#">Corporate Catering</a></li> */}
+                <li><a href="/#">Institute Catering</a></li>
+                <li><a href="/#">Hospital Catering</a></li>
+                <li><a href="/#">OutDoor Catering</a></li>
             </ul>
             <ul className="uk-switcher uk-margin uk-padding-small">
               <li>
@@ -40,7 +40,7 @@ function booking() {
                   </div>
                 </div>                             
               </li>
-              <li>
+              {/* <li>
               <div className="uk-child-width-1-2@m uk-grid-small uk-grid-match" data-uk-grid>
                   <div data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">
                   <div className="uk-card uk-card-body">
@@ -61,7 +61,7 @@ function booking() {
                     </div>
                   </div>
                 </div>                             
-              </li>
+              </li> */}
               <li>
                 <div className="uk-child-width-1-2@m uk-grid-small uk-grid-match" data-uk-grid>
                 <div data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">
@@ -72,7 +72,7 @@ function booking() {
                 <div data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">
                   <div className="uk-card uk-card-body">
                     <h2 className="">
-                      College Catering
+                    Institute Catering
                     </h2>
                     <p className='uk-margin text-black uk-text-justify'>
                     Education is a significant part of life, similarly, a college where education happens is also a significant phase of life. Everyone’s college life is ought to be fun-filled, entertaining, and joyous. What’s more enjoyable is the various college events rather than the ceaseless lectures! College events are bound to be colourful, with plenty of competitions and food fair. College events are never complete without youngsters savouring the food. Right from starters to desserts we serve scrumptious food so that the plates are wiped clean in a jiffy! 
@@ -84,7 +84,7 @@ function booking() {
                   </div>
                 </div>                             
               </li>
-              {/* <li>
+              <li>
               <div className="uk-child-width-1-2@m uk-grid-small uk-grid-match" data-uk-grid>
                   <div data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">
                   <div className="uk-card uk-card-body">
@@ -105,13 +105,13 @@ function booking() {
                     </div>
                   </div>
                 </div>                             
-              </li> */}
+              </li> 
               <li>
               <div className="uk-child-width-1-2@m uk-grid-small uk-grid-match" data-uk-grid>
                   <div data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">
                   <div className="uk-card uk-card-body">
                     <h2 className="">
-                      Event Catering
+                      OutDoor Catering
                     </h2>
                     <p className='uk-margin text-black uk-text-justify'>
                     Feast is the most awaited phase of any event, from birthday parties, and family functions, to wedding buffets. It is not just serving food to relatives or friends but also a way of exhibiting respect and affection. Food plays a vital role not just in terms of spending but also in satisfying the guests. It can ruin the very happiness of a wedding or any function for that matter. At the same time, lip-smacking food works wonders and it remains in the memory of the guests for a long time. Our list of carefully prepared dishes leaves the guests spellbound and has an everlasting effect that adds immense joy to the occasion.

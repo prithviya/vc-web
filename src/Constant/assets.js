@@ -24,7 +24,7 @@ export default
    CLIENT_13: require('../Assets/img/client/13.png'),
    CLIENT_14: require('../Assets/img/client/14.png'),
    CLIENT_15: require('../Assets/img/client/15.png'),
-   CLIENT_16: require('../Assets/img/client/16.png'),
+
    // banner
    SLIDER: require('../Assets/img/banner/slider (1).webp'),
    SLIDER_1: require('../Assets/img/banner/slider (2).webp'),
