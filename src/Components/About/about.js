@@ -21,7 +21,7 @@ function about() {
                 </div>
                 <div className="uk-width-1-2@m">
                     <div className="uk-card uk-card-body">
-                        <video src={About} width='100%' loop muted playsinline uk-video="autoplay: inview"></video>
+                        <video src={About} width='100%' loop muted playsInline uk-video="autoplay: inview"></video>
                     </div>
                 </div>
             </div>

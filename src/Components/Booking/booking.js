@@ -134,23 +134,23 @@ function booking() {
                     <form >
                       <fieldset className="uk-fieldset uk-grid-small" data-uk-grid>
                         <div className="uk-width-1-2@s">
-                          <label for="">Name</label>
+                          <label>Name</label>
                           <input className="uk-input" type="text" placeholder="Contact Person Name"/>
                         </div>     
                         <div className="uk-width-1-2@s">
-                          <label for="">Organsiation Name</label>
+                          <label>Organsiation Name</label>
                           <input className="uk-input" type="text" placeholder="Company Name"/>
                         </div> 
                         <div className="uk-width-1-2@s">
-                          <label for="">Date</label>
+                          <label>Date</label>
                           <input className="uk-input" type="Date" placeholder="Order Date"/>
                         </div>
                         <div className="uk-width-1-2@s">
-                          <label for="">Phone</label>
+                          <label>Phone</label>
                           <input className="uk-input" type="number" placeholder="Mobile Number"/>
                         </div> 
                         <div className="uk-width-1-2@s">
-                          <label for="">Place</label>
+                          <label>Place</label>
                           <input className="uk-input" type="text" placeholder="City"/>
                         </div>                
                         <div className="uk-width-1-1@s">

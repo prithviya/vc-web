@@ -9,7 +9,7 @@ function banner() {
     <div>
         <Navbar/>
         <div className='uk-visible@m'>
-            <div className="uk-position-relative uk-visible-toggle" tabindex="-1" data-uk-slideshow="animation: scale; autoplay: true; finite: false; min-height: 360; max-height: 620">
+            <div className="uk-position-relative uk-visible-toggle" tabIndex="-1" data-uk-slideshow="animation: scale; autoplay: true; finite: false; min-height: 360; max-height: 620">
                 <ul className="uk-slideshow-items">
                     <li>
                         <div className="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left ">
@@ -24,7 +24,7 @@ function banner() {
                                     Contact Us
                                 </button>
                             </a>
-                            <a href="#contact"  spy={true} smooth={true} className='uk-margin-medium-left uk-visible@m' rel="noopener noreferrer">
+                            <a href="#contact" spy={'true'} smooth={'true'} className='uk-margin-medium-left uk-visible@m' rel="noopener noreferrer">
                                 <button className='button1'> 
                                     Enquire Now
                                 </button>
@@ -75,7 +75,7 @@ function banner() {
             </div>
         </div>
         <div className='uk-hidden@m'>
-            <div className="uk-position-relative uk-visible-toggle" tabindex="-1" data-uk-slideshow="animation: slide; autoplay: true; finite: false; min-height: 300; max-height: 600;">
+            <div className="uk-position-relative uk-visible-toggle" tabIndex="-1" data-uk-slideshow="animation: slide; autoplay: true; finite: false; min-height: 300; max-height: 600;">
                 <ul className="uk-slideshow-items">
                     <li>
                         <div className="uk-position-cover">
