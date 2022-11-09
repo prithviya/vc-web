@@ -8,6 +8,7 @@ import Gallery from './Components/Gallery/gallery';
 import Booking from './Components/Booking/booking';
 import About from './Components/About/about';
 import Choose from './Components/Choose/choose';
+import Getintouch from './Components/Contact/contact';
 import Customer from './Components/Client/customer';
 import Branches from './Components/Branches/branch';
 import Footer from './Components/Footer/footer';
@@ -24,7 +25,7 @@ function App() {
       <div>
         <Choose/>
       </div>
-      <div id="contact">
+      <div>
         <Booking />
       </div> 
       <div>
@@ -35,6 +36,9 @@ function App() {
       </div>
       <div id="services">
         <Service />
+      </div>
+      <div id="contact">
+        <Getintouch/>
       </div>
       <div>
         <Test />

@@ -16,7 +16,7 @@ function service() {
                                 <img src= { Images.SER_IMG_1 } alt='Snacky Snacks'/>
                                 <h3 className='uk-margin-top'>Institute Catering</h3>
                                 <p className='uk-text-justify'>
-                                Make your college events a grand success with our catering services within your funds.
+                                We care for your health and prepare healthy food. Enjoy our catering services within your funds and have a healthy college life.
                                 </p>
                             </li>
                         </ul>   
@@ -29,7 +29,7 @@ function service() {
                                 <img src= { Images.SER_IMG_2 } alt='Grab a Meal'/>
                                 <h3 className='uk-margin-top'>Industrial Catering</h3>
                                 <p className='uk-text-justify'>
-                                Order yummy food of your choice for your grand functions and celebrations at the lowest price.
+                                Working staff need a sound physique and mind. Order the yummy healthy food for your workforce at your desired price.
                                 </p>
                             </li>
                         </ul>   
@@ -42,7 +42,7 @@ function service() {
                                 <img src= { Images.SER_IMG_3 } alt='Masala Mela'/>
                                 <h3 className='uk-margin-top'>Hospital Catering</h3>
                                 <p className='uk-text-justify'>
-                                Let us take care of your patient's health through our carefully prepared diet menu.
+                                Let us take care of your patient's health through our carefully prepared diet menu and find them hale and healthy. 
                                 </p>
                             </li>
                         </ul>   
@@ -55,7 +55,7 @@ function service() {
                                 <img src= { Images.SER_IMG_4 }  alt='Treat'/>
                                 <h3 className='uk-margin-top'>Outdoor Catering</h3>
                                 <p className='uk-text-justify'>
-                                Enjoy our selective food menu within your budget. We cater all varieties of cuisine, desserts etc.
+                                Enjoy our selective food menu within your budget. We cater all varieties of cuisine, desserts and snacks.
                                 </p>
                             </li>
                         </ul>   

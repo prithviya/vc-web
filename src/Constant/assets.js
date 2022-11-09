@@ -32,4 +32,7 @@ export default
    SER_IMG_2: require('../Assets/img/service/ser_img_2.webp'),
    SER_IMG_3: require('../Assets/img/service/ser_img_3.webp'),
    SER_IMG_4: require('../Assets/img/service/ser_img_4.webp'),
+
+   // contactus
+   CONTACT_US: require('../Assets/img/contact_us.png'),
 };
