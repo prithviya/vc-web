@@ -24,7 +24,7 @@ function booking() {
                 <div className="uk-child-width-1-2@m uk-grid-small uk-grid-match" data-uk-grid>
                   <div data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">
                     <div className="uk-card">
-                      <img className="tabs-content-image" alt='img' src="https://kasikannucateringworld.in/image/industrial-catering-services-in-chennai.jpg" width="100%"/>
+                      <img className="tabs-content-image" alt='img' src="https://img.freepik.com/premium-photo/buffet-food-catering-food-party-made-by-aiartificial-intelligence_41969-12071.jpg?w=740" width="100%"/>
                     </div>
                   </div>
                   <div data-uk-scrollspy="cls: uk-animation-scale-up; repeat: false; delay: 500;">

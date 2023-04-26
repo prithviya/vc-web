@@ -91,6 +91,16 @@ function customer() {
                             <img src={Images.CLIENT_16} alt="customer logo 16"/>
                         </div>
                     </li>
+                    <li>
+                        <div className="uk-panel">
+                            <img src={Images.CLIENT_17} alt="customer logo 17"/>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="uk-panel">
+                            <img src={Images.CLIENT_18} alt="customer logo 18"/>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
